@@ -2,7 +2,7 @@
     --primary-color: #fd951f;
     --bg-color: #130f0d;
     --text-color: #f0f0f5;
-    --light-color: rgba(255, 255, 255, 0.04);
+    --light-color: rgba(255, 255, 255, 0.06);
 }
 
 * {
@@ -88,7 +88,7 @@ input ~ label {
     transition: .4s;
 }
 
-input:focus ~ label,
+input:focus ~ label,/*validação de campos*/
 input:valid ~ label {
     transform: translateY(-24px);
     font-size: 0.8em;
